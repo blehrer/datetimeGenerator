@@ -14,7 +14,7 @@ from datetime import date, datetime, timedelta
 def main():
 	
 	# Collect date input
-	print "daterangeGenerator.py"
+	print "\ndaterangeGenerator.py"
 	print "author: Brian Lehrer"
 	print "originally written on November 3, 2012"
 	print "latest update: November 3, 2012\n"
@@ -55,7 +55,7 @@ def main():
 			result.append(a)
 		#print "In datetime format, the result is: "+str(result)+\n
 		formattedArray =[result[i].strftime("%Y/%m/%d") for i in range(len(result))]
-		print "Date range requested: "+str(formattedArray)
+		print "Date range requested: "+str(formattedArray)+"\n"
 		return result
 		
 	
